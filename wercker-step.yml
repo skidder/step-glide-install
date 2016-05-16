@@ -1,5 +1,5 @@
 name: glide-install
-version: 1.0.1
+version: 1.0.2
 description: uses glide to setup $GOPATH and install dependencies
 keywords:
   - glide
