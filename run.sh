@@ -2,4 +2,4 @@
 set -e
 
 debug "$("$WERCKER_STEP_ROOT/glide" --version)"
-"$WERCKER_STEP_ROOT/glide" install --cache
+"$WERCKER_STEP_ROOT/glide" install --cache-gopath
