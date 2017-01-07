@@ -11,7 +11,7 @@ build:
     - script:
         name: fetch glide
         code: |-
-          curl -L -o glide_linux_amd64.tar.gz https://github.com/Masterminds/glide/releases/download/${GLIDE_VERSION}/glide-${GLIDE_VERSION}-linux-amd64.tar.gz
+          curl -L -o glide_linux_amd64.tar.gz https://github.com/Masterminds/glide/releases/download/v${GLIDE_VERSION}/glide-v${GLIDE_VERSION}-darwin-amd64.tar.gz
           tar -xf glide_linux_amd64.tar.gz
           mv linux-amd64/glide ./glide
 
